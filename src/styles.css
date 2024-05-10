@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.box {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(205, 232, 232);
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.reset {
+  height: 30px;
+  width: 60px;
+  border-radius: 40%;
+  font-size: 12px;
+}
